@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{app.request.locale}}">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+		<title>
+			{% block title %}Welcome!
+			{% endblock %}
+		</title>
+		<link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+        {{ encore_entry_link_tags('app') }}
+        {{ encore_entry_link_tags('header') }}
+        {{ encore_entry_link_tags('footer') }}
+
+		{% block stylesheets %}
+		{% endblock %}
+
+	</head>
+	<body>
+        {% include "helpers/variables.html.twig" %}
+		<header id="app-header"></header>
+
+		<main>
+			{% block body %}{% endblock %}
+		</main>
+
+		<footer id="app-footer"></footer>
+
+		{{ encore_entry_script_tags('app') }}
+		{{ encore_entry_script_tags('header') }}
+		{{ encore_entry_script_tags('footer') }}
+		{% block javascripts %}{% endblock %}
+	</body>
+</html>

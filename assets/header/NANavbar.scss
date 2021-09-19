@@ -1,0 +1,40 @@
+@import '../../node_modules/@blueprintjs/core/lib/scss/variables';
+@import '../styles/partials/lighttheme';
+
+.navbar-menu {
+	background-color: $light-theme-blue-lighter-2;
+	.bp3-button .bp3-icon{
+		color: $light-theme-black;
+	}
+	.navbar-menu-dropdown {
+		position: absolute;
+		border: 1px solid $pt-divider-black;
+		top: calc(100% + 10px);
+		right: 0;
+		box-shadow: $pt-elevation-shadow-2;
+	}
+	.navbar-menu-dropdown-container {
+		position: relative;
+	}
+	.logo-btn {
+		height: 100%;
+		background: transparent;
+		&:hover {
+			background: transparent;
+		}
+		.logo-text {
+			font-family: 'Ostrich Sans';
+			font-weight: 700;
+			color: $light-theme-blue;
+			margin: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.navbar-menu {
+		.logo-text {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,41 @@
+$theme-blue-base: #3b28bc;
+$theme-blue-darken-1: darken($theme-blue-base, 3%);
+$theme-blue-darken-2: darken($theme-blue-base, 6%);
+$theme-blue-darken-3: darken($theme-blue-base, 12%);
+$theme-blue-darken-4: darken($theme-blue-base, 18%);
+$theme-blue-darken-5: darken($theme-blue-base, 24%);
+$theme-blue-darken-6: darken($theme-blue-base, 30%);
+$theme-blue-darken-7: darken($theme-blue-base, 36%);
+$theme-blue-lighten-1: lighten($theme-blue-base, 3%);
+$theme-blue-lighten-2: lighten($theme-blue-base, 6%);
+$theme-blue-lighten-3: lighten($theme-blue-base, 12%);
+$theme-blue-lighten-4: lighten($theme-blue-base, 18%);
+$theme-blue-lighten-5: lighten($theme-blue-base, 24%);
+$theme-blue-lighten-6: lighten($theme-blue-base, 30%);
+$theme-blue-lighten-7: lighten($theme-blue-base, 36%);
+$theme-blue-lighter-1: lighten($theme-blue-base, 40%);
+$theme-blue-lighter-2: lighten($theme-blue-base, 45%);
+$theme-blue-lighter-3: lighten($theme-blue-base, 50%);
+
+$primary-color: #2b79ee;
+$primary-hover-color: #0f52ba;
+$secondary-color: #fe1493;
+$secondary-hover-color: #fa68b8;
+
+$navbar-base: #136aec;
+
+$light-bg: #e7f0fd;
+$default-white: #fefefe;
+// $secondary-color: #123;
+$footer-primary: #0a3576;
+$footer-secondary: #0d4aa5;
+
+// Flatform
+$form-light: #fbfbf8;
+$form-header: #4288f0;
+$form-footer: #b8d2f9;
+
+$theme-black: #444;
+
+// Default
+$theme-white: #fff;

@@ -1,0 +1,17 @@
+<script>
+	$variables = {
+    csrf: {
+        authenticate: "{{ csrf_token('authenticate') }}",
+        user_register: "{{ csrf_token('user_register') }}"
+    },
+    route: {
+        user_register: "{{ path('user_register') }}",
+        user_login: "{{ path('user_login') }}",
+        user_logout: "{{ path('user_logout') }}",
+        user_dashboard: "{{ path('user_dashboard') }}",
+        api_auth_user: "{{ path('api_auth_user') }}",
+        api_article_id: "{{ path('api_article_id') }}", 
+        user_settings: "{{ path('user_settings') }}",        
+    }
+}
+</script>

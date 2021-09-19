@@ -1,0 +1,39 @@
+// Import fonts
+@import './fonts/ostrich-sans/ostrich-sans.css';
+
+// Import color variables
+@import 'partials/lighttheme';
+@import 'partials/darktheme';
+
+// Main css
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+header,
+footer {
+	flex-shrink: 0;
+}
+main {
+	flex: 1 0 auto;
+}
+
+footer{
+	color: $theme-white;
+    .footer-container{
+        background-color: $theme-blue-darken-2;
+        // .footer-copyright{
+        // }
+    }
+}
+
+.text-center{
+	text-align: center;
+}

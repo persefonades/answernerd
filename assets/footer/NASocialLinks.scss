@@ -1,0 +1,21 @@
+@import '../../node_modules/@blueprintjs/core/lib/scss/variables';
+@import '../styles/partials/lighttheme';
+
+.social-links-container {
+	background-color: $light-theme-blue-darken-2;
+	.container {
+		.button-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.social-link {
+				color: white;
+				margin-left: 8px;
+				.bp3-icon {
+					color: white;
+				}
+			}
+		}
+		border-bottom: 1px solid white;
+	}
+}

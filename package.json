@@ -1,0 +1,29 @@
+{
+    "devDependencies": {
+        "@babel/preset-react": "^7.14.5",
+        "@blueprintjs/core": "^3.49.1",
+        "@blueprintjs/datetime": "^3.23.9",
+        "@blueprintjs/popover2": "^0.11.4",
+        "@symfony/stimulus-bridge": "^2.0.0",
+        "@symfony/webpack-encore": "^1.0.0",
+        "core-js": "^3.0.0",
+        "moment": "^2.29.1",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.2.0",
+        "regenerator-runtime": "^0.13.2",
+        "sass": "^1.39.2",
+        "sass-loader": "^12.1.0",
+        "stimulus": "^2.0.0",
+        "webpack-notifier": "^1.6.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    }
+}
