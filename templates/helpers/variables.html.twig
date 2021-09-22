@@ -2,9 +2,11 @@
 	$variables = {
     csrf: {
         authenticate: "{{ csrf_token('authenticate') }}",
-        user_register: "{{ csrf_token('user_register') }}"
+        user_register: "{{ csrf_token('user_register') }}",
+        api_access: "{{ csrf_token('api_access') }}",
     },
     route: {
+        home: "{{ path('home') }}",
         user_register: "{{ path('user_register') }}",
         user_login: "{{ path('user_login') }}",
         user_logout: "{{ path('user_logout') }}",

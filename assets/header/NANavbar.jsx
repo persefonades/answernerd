@@ -40,7 +40,14 @@ export default class NANavbar extends Component {
           />
         </Navbar.Group>
         <Navbar.Group align={Alignment.RIGHT}>
-          <Button className="bp3-minimal" icon="home" text="Home" />
+          <Button
+            className="bp3-minimal"
+            icon="home"
+            text="Home"
+            onClick={() => {
+              window.location.href = window.$variables.route.home
+            }}
+          />
           <Navbar.Divider />
           <div className="navbar-menu-dropdown-container">
             <Button
